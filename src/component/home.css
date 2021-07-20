@@ -1,0 +1,40 @@
+.home{
+	/* background-Image: "url(/image/bgGame.png)"; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* height: 1000px; */
+	padding-bottom: 500px;
+}
+.btn-chon:focus{
+	background-color: orange;
+}
+.hinh{
+    width: 155px;
+    height: 155px;
+	background-color: white;
+	margin: auto;
+}
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	padding-top: 2px;
+    /* width: 200px; */
+    /* height: 200px; */
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
